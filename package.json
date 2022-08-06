@@ -11,6 +11,7 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch\" \"live-server --watch=src --open=src\"",
+    "build": "node ./scripts/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alan Zou",
@@ -18,7 +19,7 @@
   "repository": "https://github.com/ZouYouShun/tailwind-seed-template",
   "devDependencies": {
     "concurrently": "^7.3.0",
-    "live-server": "^1.2.2",
+    "live-server": "^1.1.0",
     "tailwindcss": "^3.1.8"
   }
 }
