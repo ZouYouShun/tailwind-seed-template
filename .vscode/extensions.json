@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "bradlc.vscode-tailwindcss",
-    "EditorConfig.EditorConfig"
+    "EditorConfig.EditorConfig",
+    "ritwickdey.LiveServer"
   ]
 }
