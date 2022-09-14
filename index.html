@@ -7,102 +7,140 @@
     <link href="./styles.css" rel="stylesheet" />
     <title>Tailwind seed project template</title>
   </head>
-  <body class="root">
-    <div class="flex h-screen w-screen items-center justify-center">
-      <div class="w-[280px] rounded-xl text-white shadow-2xl">
-        <header class="overflow-hidden rounded-t-xl bg-gray-700">
-          <div class="mx-4 my-2 flex items-center">
-            <p class="text-sm">New Call</p>
-            <i class="flex-auto"></i>
-            <div>－</div>
-          </div>
-          <div class="px-5 pb-4 pt-2">
-            <input
-              type="text"
-              class="w-full bg-transparent text-center text-lg font-normal text-white outline-none placeholder:text-base placeholder:text-gray-400"
-              placeholder="Enter a name or number"
-            />
-          </div>
-        </header>
-        <main class="rounded-b-xl bg-gray-800">
-          <div class="flex items-center justify-center pt-3">
-            <div class="text-xs">
-              <span class="text-gray-400">Call from:</span> (216) 250-3736
-            </div>
-          </div>
-          <div class="mt-1">
-            <section class="mx-6 grid grid-cols-3 gap-3">
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                1
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                2
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                3
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                4
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                5
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                6
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                7
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                8
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                9
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                *
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                0
-              </button>
-              <button
-                class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200/20"
-              >
-                #
-              </button>
-            </section>
-          </div>
-          <div class="flex items-center justify-center pt-3 pb-6">
-            <button
-              class="aspect-square w-16 rounded-full bg-green-600/80 text-2xl hover:bg-green-600"
-            >
-              D
-            </button>
-          </div>
-        </main>
+  <body>
+    <div class="fixed z-10 bottom-4 right-4">
+      <div class="flex items-center mb-4">
+        <input
+          id="checkbox-1"
+          type="checkbox"
+          class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+        />
+        <label
+          for="checkbox-1"
+          class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+        >
+          dark mode
+        </label>
       </div>
     </div>
+    <main>
+      <div class="root flex h-screen w-screen items-center justify-center">
+        <div
+          class="w-[280px] rounded-xl text-black dark:text-white shadow-2xl border-white/12 border"
+        >
+          <header
+            class="overflow-hidden rounded-t-xl bg-blue-600 dark:bg-gray-700"
+          >
+            <div class="mx-4 my-2 flex items-center text-white">
+              <p class="text-sm">New Call</p>
+              <i class="flex-auto"></i>
+              <div>－</div>
+            </div>
+            <div class="px-5 pb-4 pt-2">
+              <input
+                type="text"
+                class="w-full bg-transparent text-center text-lg font-normal text-white outline-none placeholder:text-base placeholder:text-gray-200 dark:placeholder:text-gray-400"
+                placeholder="Enter a name or number"
+              />
+            </div>
+          </header>
+          <main class="rounded-b-xl bg-white dark:bg-gray-800">
+            <div class="flex items-center justify-center pt-3">
+              <div class="text-xs">
+                <span class="text-gray-400">Call from:</span> (216) 250-3736
+              </div>
+            </div>
+            <div class="mt-1">
+              <section class="mx-6 grid grid-cols-3 gap-3">
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  1
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  2
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  3
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  4
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  5
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  6
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  7
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  8
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  9
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  *
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  0
+                </button>
+                <button
+                  class="aspect-square w-16 rounded-full text-2xl hover:bg-gray-200 dark:hover:bg-gray-200/20"
+                >
+                  #
+                </button>
+              </section>
+            </div>
+            <div class="flex items-center justify-center pt-3 pb-6">
+              <button
+                class="aspect-square w-16 rounded-full bg-green-600/80 text-2xl hover:bg-green-600 text-white"
+              >
+                D
+              </button>
+            </div>
+          </main>
+        </div>
+      </div>
+    </main>
   </body>
+
+  <script>
+    const checkElm = document.querySelector('#checkbox-1');
+    const bodyElm = document.querySelector('body');
+
+    let isDark = false;
+
+    checkElm.addEventListener('click', () => {
+      isDark = !isDark;
+
+      if (isDark) {
+        bodyElm.classList.add('dark');
+      } else {
+        bodyElm.classList.remove('dark');
+      }
+    });
+  </script>
 </html>
